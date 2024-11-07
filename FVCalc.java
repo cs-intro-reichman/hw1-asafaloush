@@ -10,6 +10,6 @@ public class FVCalc {
 			futurevalue = futurevalue + (futurevalue * rate/100);
 			yearscounter++;
 		}
-        System.out.println((int) futurevalue);
+        System.out.println("After " + years + " years, a $" + currentvalue+ " saved at " + rate + "% will yield $" + (int) futurevalue);
 	}
 }
