@@ -8,6 +8,6 @@ public class Bill3 {
         int totalAmount;
         totalAmount = Integer.parseInt(args[3]);
         double individualShare = Math.ceil(totalAmount / 3.0);
-        System.out.println("Dear " + name1 + ", " + name2 + ", " + name3 +", please pay " + individualShare + " Shekels each");
+        System.out.println("Dear " + name3 + ", " + name2 + ", " + name1 +": pay " + individualShare + " Shekels each");
 	}
 }
