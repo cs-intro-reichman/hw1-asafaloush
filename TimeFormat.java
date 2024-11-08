@@ -30,7 +30,7 @@ public class TimeFormat {
 		if (hours<12) {
 			System.out.print(" AM");
 		}
-		if (hours>12) {
+		if (hours>=12) {
 			System.out.print(" PM");
 		}  
 	}
