@@ -10,8 +10,7 @@ public class Ascend {
 		max = Math.max(max, c);
 		double min = Math.min(a, b);
 		min = Math.min(min, c);
-		double mid = Math.max(a, b);
-		mid = Math.min(mid, c);
+		double mid = a+b+c-min-max;
 		System.out.println((int)a + " " + (int)b + " " + (int)c);
 		System.out.println((int)min + " " + (int)mid + " " + (int)max);
 	}
